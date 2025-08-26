@@ -34,15 +34,15 @@ html {
 
 body {
   background: var(--slate-300);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
   max-width: 1440px;
   max-height: 960px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 figure {

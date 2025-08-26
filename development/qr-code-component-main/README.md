@@ -4,22 +4,20 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+![](/development/qr-code-component-main/images/desktop-preview.JPG)
+![](/development/qr-code-component-main/design/mobile-design.jpg)
 
 ## My process
+
+I was stuck in <body> and <main> I don't know where am I gonna input the max-width and max-height in the end I inserted the two declarations to <main>. I also added a height: 100vh in the <body> and used display: flex, align-items: center, and lastly justify-content: center. So that I can center all the child elements of <body>.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Mobile-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned that I should really take the mobile responsiveness seriously. Know the differences of min and max in terms of width and height.
