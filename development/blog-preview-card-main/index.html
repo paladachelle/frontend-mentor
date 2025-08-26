@@ -4,26 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Blog preview card</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <main>
@@ -33,6 +21,23 @@
           >Frontend Mentor</a
         >. Coded by <a href="#">Rachelle Palada</a>.
       </div>
+
+      <figure>
+        <img src="assets/images/illustration-article.svg" alt="" />
+        <figcaption>
+          <p>Learning</p>
+          <p>Published <time datetime="2023-12-21">21 Dec 2023</time></p>
+          <h3>HTML & CSS foundations</h3>
+          <h4>
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </h4>
+          <div class="container">
+            <img src="/assets/images/image-avatar.webp" alt="Greg Hooper" />
+            <p>Greg Hooper</p>
+          </div>
+        </figcaption>
+      </figure>
     </main>
   </body>
 </html>
