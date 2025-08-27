@@ -83,8 +83,9 @@ figcaption h2:hover {
   cursor: pointer;
 }
 
-figcaption h4 {
+figcaption h3 {
   color: var(--gray-500);
+  font-size: inherit;
   font-weight: var(--medium);
   line-height: 1.5;
 }
