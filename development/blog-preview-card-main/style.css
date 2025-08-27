@@ -1,7 +1,93 @@
-.attribution {
-  font-size: 11px;
+:root {
+  /* colors */
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-900: hsl(0, 0%, 7%);
+
+  /* font */
+  --medium: 500;
+  --extra-bold: 800;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  background: var(--yellow);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+figure {
+  background-color: var(--white);
+  max-width: 375px;
+  min-height: 500px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid var(--gray-900);
+  filter: drop-shadow(8px 8px);
+}
+
+figure > img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+figcaption > p:nth-child(1) {
+  color: var(--gray-900);
+  font-weight: var(--extra-bold);
+  background-color: var(--yellow);
+  max-width: 100px;
+  padding: 8px 12px;
+  border-radius: 5px;
   text-align: center;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+
+figcaption > p:nth-child(2) {
+  color: var(--gray-900);
+  font-weight: var(--medium);
+}
+
+figcaption h2 {
+  color: var(--gray-900);
+  font-weight: var(--extra-bold);
+}
+
+figcaption h4 {
+  color: var(--gray-500);
+  font-weight: var(--medium);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 15px;
+}
+
+.container > img {
+  width: 40px;
+}
+
+.container p {
+  color: var(--gray-900);
+  font-weight: var(--extra-bold);
 }
