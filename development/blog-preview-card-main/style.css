@@ -78,6 +78,11 @@ figcaption h2 {
   font-weight: var(--extra-bold);
 }
 
+figcaption h2:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
 figcaption h4 {
   color: var(--gray-500);
   font-weight: var(--medium);

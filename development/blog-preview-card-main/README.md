@@ -10,7 +10,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/desktop-preview.JPG)
+![](./assets/images/mobile-preview.JPG)
 
 ### Links
 
@@ -24,9 +25,12 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- @font-face
+- CSS Pseudo-class
+- CSS filter: drop-shadow()
+- CSS Selectors and Combinators
 - Mobile-first workflow
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I should practice more about CSS Selectors and Combinators as well as CSS Specificity.
