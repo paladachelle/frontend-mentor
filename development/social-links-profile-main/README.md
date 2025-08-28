@@ -10,7 +10,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/desktop-preview.JPG)
+![](./assets/images/mobile-preview.JPG)
 
 ### Links
 
@@ -23,8 +24,8 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- @font-face
 - Flexbox
-- CSS Grid
+- CSS Pseudo-class
+- CSS Selectors and Combinators
 - Mobile-first workflow
-
-### What I learned
