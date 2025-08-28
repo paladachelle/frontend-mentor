@@ -54,3 +54,8 @@ body {
   width: 70px;
   border-radius: 100px;
 }
+
+.container h2 {
+  color: var(--white);
+  font-weight: var(--medium);
+}
