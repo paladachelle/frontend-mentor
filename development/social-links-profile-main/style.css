@@ -74,7 +74,6 @@ ul li {
 }
 
 li > a {
-  background-color: var(--grey-700);
   color: var(--white);
   font-weight: var(--bold);
   text-decoration: none;
