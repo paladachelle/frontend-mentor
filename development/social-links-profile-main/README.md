@@ -26,6 +26,7 @@ Users should be able to:
 - CSS custom properties
 - @font-face
 - Flexbox
+- Display: inline-block
 - CSS Pseudo-class
 - CSS Selectors and Combinators
 - Mobile-first workflow
