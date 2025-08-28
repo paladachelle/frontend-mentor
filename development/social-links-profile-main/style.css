@@ -5,4 +5,15 @@
   --grey-700: hsl(0, 0%, 20%);
   --grey-800: hsl(0, 0%, 12%);
   --grey-900: hsl(0, 0%, 8%);
+
+  /* fonts */
+  --normal: 400;
+  --medium: 500;
+  --bold: 700;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(assets/fonts/Inter-VariableFont_slnt\wght.ttf);
+  font-style: normal;
 }
