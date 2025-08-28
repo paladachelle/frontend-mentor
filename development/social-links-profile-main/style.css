@@ -78,3 +78,13 @@ li > a {
   font-weight: var(--bold);
   text-decoration: none;
 }
+
+a {
+  display: inline-block;
+  text-align: center;
+  padding: 15px 50px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: var(--grey-700);
+  border-radius: 8px;
+}
