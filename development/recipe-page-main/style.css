@@ -1,152 +1,158 @@
 :root {
-    /* colors */
-    --white: hsl(0, 0%, 100%);
-    --stone--100: hsl(30, 54%, 90%);
-    --stone--150: hsl(30, 18%, 87%);
-    --stone--600: - Stone 600: hsl(30, 10%, 34%);
-    --stone--900: hsl(24, 5%, 18%);
-    --brown--800: hsl(14, 45%, 36%);
-    --rose--800: hsl(332, 51%, 32%);
-    --rose--50: hsl(330, 100%, 98%);
+  /* colors */
+  --white: hsl(0, 0%, 100%);
+  --stone--100: hsl(30, 54%, 90%);
+  --stone--150: hsl(30, 18%, 87%);
+  --stone--600: hsl(30, 10%, 34%);
+  --stone--900: hsl(24, 5%, 18%);
+  --brown--800: hsl(14, 45%, 36%);
+  --rose--800: hsl(332, 51%, 32%);
+  --rose--50: hsl(330, 100%, 98%);
 
-    /* fonts */
-    --young--serif--400: 400;
-    --outfit--400: 400;
-    --outfit--600: 600;
-    --outfit--700: 700;
+  /* fonts */
+  --young--serif--400: 400;
+  --outfit--400: 400;
+  --outfit--600: 600;
+  --outfit--700: 700;
 }
 
 @font-face {
-    font-family: "Young Serif";
-    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
-    font-style: normal;
+  font-family: "Young Serif";
+  src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Outfit";
-    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
-    font-style: normal;
+  font-family: "Outfit";
+  src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+  font-style: normal;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 body {
-    background: var(--stone--100);
-    max-height: 100vh;
-    padding: 50px;
-    line-height: 1.5;
-    
+  background: var(--stone--100);
+  height: 100%;
+  padding: 50px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-h1, 
+h1,
 h2 {
-    font-family: "Young Serif";
-    letter-spacing: 2px;
-    font-weight: var(--young--serif--400);
+  font-family: "Young Serif";
+  letter-spacing: 2px;
+  font-weight: var(--young--serif--400);
 }
 
 h1.title {
-    color: var(--stone--900);
-    padding: 20px 0px 15px 0px;
+  color: var(--stone--900);
+  padding: 20px 0px 15px 0px;
 }
 
 p,
 li {
-    font-family: "Outfit";
-    color: var(--stone--600);
+  font-family: "Outfit";
+  color: var(--stone--600);
 }
 
 .heading__two,
 li::marker {
-    color: var(--brown--800);
-    font-weight: var(--outfit--700);
+  color: var(--brown--800);
+  font-weight: var(--outfit--700);
 }
 
 .heading__two {
-    padding: 0px 0px 25px 0px;
-    font-weight: var(--young--serif--400);
-
+  padding: 0px 0px 25px 0px;
+  font-weight: var(--young--serif--400);
 }
 
 ul > li,
 ol > li {
-    margin-bottom: 10px;
-    margin-left: 20px;
-    padding: 0px 15px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding: 0px 15px;
 }
 
 .container {
-    width: 100%;
-    max-width: 700px;
-    background-color: var(--white);
-    padding: 35px 35px;
-    border-radius: 25px;
+  width: 100%;
+  max-width: 700px;
+  background-color: var(--white);
+  padding: 35px 35px;
+  border-radius: 25px;
 }
 
 .container img {
-    border-radius: 10px;
-    max-width: 100%;
+  border-radius: 10px;
+  max-width: 100%;
 }
 
 .card {
-    background-color: var(--rose--50);
-    margin: 25px 0px 25px 0px;
-    border-radius: 10px;
-    padding: 20px;
+  background-color: var(--rose--50);
+  margin: 25px 0px 25px 0px;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .card__title {
-    color: var(--rose--800);
-    font-weight: var(--outfit--700);
-    margin-bottom: 10px;
-    letter-spacing: 1px;
+  color: var(--rose--800);
+  font-weight: var(--outfit--700);
+  margin-bottom: 10px;
+  letter-spacing: 1px;
 }
 
 .card li::marker {
-    color: var(--rose--800);
+  color: var(--rose--800);
 }
 
 .card li > strong,
 ol li > strong {
-    color: var(--stone--900);
+  color: var(--stone--600);
 }
 
 .divider {
-    color: var(--stone--100);
-    width: 100%;
-    margin: 25px 0px;
+  color: var(--stone--150);
+  width: 100%;
+  margin: 25px 0px;
 }
 
 table {
-    border-collapse: collapse;
-    width: 100%; /* make the table take full container width */
-    max-width: 100%; /* prevent overflow */
+  border-collapse: collapse;
+  width: 100%; /* make the table take full container width */
+  max-width: 100%; /* prevent overflow */
 }
 
-caption, th, td {
-    font-family: "Outfit";
-    color: var(--stone--600);
-}
-
-caption {
-    text-align: left;
+caption,
+th,
+td {
+  font-family: "Outfit";
+  color: var(--stone--600);
+  text-align: left;
 }
 
 th {
-    font-weight: var(--outfit--400);
+  font-weight: var(--outfit--400);
 }
 
 td {
-    color: var(--brown--800);
-    font-weight: var(--outfit--700);
+  color: var(--brown--800);
+  font-weight: var(--outfit--700);
+}
+
+th,
+td {
+  padding: 15px 20px;
+  border-bottom: 1px solid var(--stone--150);
 }
