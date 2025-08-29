@@ -44,10 +44,13 @@ body {
     background: var(--stone--100);
     max-height: 100vh;
     padding: 50px;
+    line-height: 1.5;
+    
 }
 
 h1.title {
     color: var(--stone--900);
+    padding: 20px 0px 15px 0px;
 }
 
 p,
@@ -61,8 +64,19 @@ li::marker {
     color: var(--brown--800);
 }
 
+.heading__two {
+    padding: 25px 0px 25px 0px;
+
+}
+
+ul > li,
+ol > li {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
 .container {
-    max-width: 500px;
+    max-width: 700px;
     background-color: var(--white);
     padding: 25px;
     border-radius: 25px;
@@ -74,6 +88,7 @@ li::marker {
 
 .card {
     background-color: var(--rose--50);
+    margin: 25px 0px 0px 25px;
 }
 
 .card__title {
