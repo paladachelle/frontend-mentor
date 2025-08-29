@@ -48,6 +48,13 @@ body {
     
 }
 
+h1, 
+h2 {
+    font-family: "Young Serif";
+    letter-spacing: 2px;
+    font-weight: var(--young--serif--400);
+}
+
 h1.title {
     color: var(--stone--900);
     padding: 20px 0px 15px 0px;
@@ -67,6 +74,7 @@ li::marker {
 
 .heading__two {
     padding: 0px 0px 25px 0px;
+    font-weight: var(--young--serif--400);
 
 }
 
@@ -101,6 +109,7 @@ ol > li {
     color: var(--rose--800);
     font-weight: var(--outfit--700);
     margin-bottom: 10px;
+    letter-spacing: 1px;
 }
 
 .card li::marker {
@@ -120,4 +129,24 @@ ol li > strong {
 
 table {
     border-collapse: collapse;
+    width: 100%; /* make the table take full container width */
+    max-width: 100%; /* prevent overflow */
+}
+
+caption, th, td {
+    font-family: "Outfit";
+    color: var(--stone--600);
+}
+
+caption {
+    text-align: left;
+}
+
+th {
+    font-weight: var(--outfit--400);
+}
+
+td {
+    color: var(--brown--800);
+    font-weight: var(--outfit--700);
 }
