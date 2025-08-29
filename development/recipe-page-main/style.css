@@ -156,3 +156,52 @@ td {
   padding: 15px 20px;
   border-bottom: 1px solid var(--stone--150);
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+
+  .container {
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .container > img {
+    border-radius: 0;
+  }
+
+  h1.title,
+  p.description,
+  div.card,
+  h2.heading__two,
+  ul,
+  ol,
+  caption,
+  table {
+    padding: 0px 35px;
+  }
+
+  div.card {
+    margin: 30px 30px;
+  }
+
+  .card__title {
+    padding-top: 20px;
+  }
+
+  .card > ul {
+    padding: 0px 0px 20px 0px;
+  }
+
+  .divider {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid var(--stone--150);
+  }
+
+  th,
+  td {
+    padding: 15px 60px;
+  }
+}
