@@ -62,10 +62,11 @@ li {
 .heading__two,
 li::marker {
     color: var(--brown--800);
+    font-weight: var(--outfit--700);
 }
 
 .heading__two {
-    padding: 25px 0px 25px 0px;
+    padding: 0px 0px 25px 0px;
 
 }
 
@@ -73,27 +74,33 @@ ul > li,
 ol > li {
     margin-bottom: 10px;
     margin-left: 20px;
+    padding: 0px 15px;
 }
 
 .container {
+    width: 100%;
     max-width: 700px;
     background-color: var(--white);
-    padding: 25px;
+    padding: 35px 35px;
     border-radius: 25px;
 }
 
 .container img {
     border-radius: 10px;
+    max-width: 100%;
 }
 
 .card {
     background-color: var(--rose--50);
-    margin: 25px 0px 0px 25px;
+    margin: 25px 0px 25px 0px;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .card__title {
     color: var(--rose--800);
-    font-weight: var(--outfit--600);
+    font-weight: var(--outfit--700);
+    margin-bottom: 10px;
 }
 
 .card li::marker {
@@ -103,4 +110,14 @@ ol > li {
 .card li > strong,
 ol li > strong {
     color: var(--stone--900);
+}
+
+.divider {
+    color: var(--stone--100);
+    width: 100%;
+    margin: 25px 0px;
+}
+
+table {
+    border-collapse: collapse;
 }
