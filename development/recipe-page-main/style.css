@@ -39,3 +39,53 @@
 html {
     font-size: 16px;
 }
+
+body {
+    background: var(--stone--100);
+    max-height: 100vh;
+    padding: 50px;
+}
+
+h1.title {
+    color: var(--stone--900);
+}
+
+p,
+li {
+    font-family: "Outfit";
+    color: var(--stone--600);
+}
+
+.heading__two,
+li::marker {
+    color: var(--brown--800);
+}
+
+.container {
+    max-width: 500px;
+    background-color: var(--white);
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.container img {
+    border-radius: 10px;
+}
+
+.card {
+    background-color: var(--rose--50);
+}
+
+.card__title {
+    color: var(--rose--800);
+    font-weight: var(--outfit--600);
+}
+
+.card li::marker {
+    color: var(--rose--800);
+}
+
+.card li > strong,
+ol li > strong {
+    color: var(--stone--900);
+}
