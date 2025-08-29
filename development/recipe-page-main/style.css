@@ -203,5 +203,10 @@ td {
   th,
   td {
     padding: 15px 60px;
+    border-bottom: 0;
+  }
+
+  tr {
+    border-bottom: 1px solid var(--stone--100);
   }
 }
