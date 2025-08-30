@@ -207,6 +207,7 @@ td {
   }
 
   tr {
+    position: relative;
     border-bottom: none;
   }
 
@@ -215,9 +216,13 @@ td {
     background-color: var(--stone--150);
     display: block;
     position: absolute;
-
     width: 80%;
     height: 1px;
-    left: 1px;
+    inset-inline: 30px;
+    bottom: 0;
+  }
+
+  tr:last-child::after {
+    display: none;
   }
 }
