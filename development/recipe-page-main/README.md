@@ -4,7 +4,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/assets/images/desktop-preview.png)
+![](/assets/images/mobile-preview.png)
 
 ### Links
 
@@ -17,8 +18,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 - Semantic HTML5 markup
 - CSS custom properties
+- BEM Naming Convention
 - Flexbox
-- CSS Grid
+- Media Query
 - Mobile-first workflow
-
-### What I learned
