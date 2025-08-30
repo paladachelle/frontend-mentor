@@ -207,6 +207,17 @@ td {
   }
 
   tr {
-    border-bottom: 1px solid var(--stone--100);
+    border-bottom: none;
+  }
+
+  tr::after {
+    content: " ";
+    background-color: var(--stone--150);
+    display: block;
+    position: absolute;
+
+    width: 80%;
+    height: 1px;
+    left: 1px;
   }
 }
