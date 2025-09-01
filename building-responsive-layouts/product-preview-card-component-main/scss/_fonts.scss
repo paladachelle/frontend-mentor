@@ -1,0 +1,21 @@
+$font-path: "/product-preview-card-component-main/fonts";
+
+@mixin font-face($name, $file, $weight: 400, $style: normal) {
+  @font-face {
+    font-family: $name;
+    src: url(/product-preview-card-component-main/fonts/Fraunces-9ptBlack.woff2),
+      url(/product-preview-card-component-main/fonts/Fraunces-9ptBlack.woff);
+    font-weight: $weight;
+    font-style: $normal;
+  }
+}
+
+@mixin font-face($name, $file, $weight: 400, $style: normal) {
+  @font-face {
+    font-family: $name;
+    src: url(/product-preview-card-component-main/fonts/Montserrat-Thin.woff2)
+      url(/product-preview-card-component-main/fonts/Montserrat-Thin.woff);
+    font-weight: $weight;
+    font-style: $normal;
+  }
+}
