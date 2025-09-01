@@ -6,10 +6,14 @@ $font-path: "/product-preview-card-component-main/fonts";
     src: url("#{$font-path}/#{$file}.woff2") format("woff2"),
       url("#{$font-path}/#{$file}.woff") format("woff");
     font-weight: $weight;
-    font-style: $normal;
+    font-style: $style;
   }
 }
 
 @include font-face("Fraunces", "Fraunces-9ptBlack", 700, normal);
-@include font-face("Montserrat", "Montserrat-Thin", 500, "normal");
-@include font-face("Montserrat", "Montserrat-Thin", 700, "normal");
+@include font-face(
+  "Montserrat",
+  "Montserrat-VariableFont_wght",
+  100 900,
+  "normal"
+);
