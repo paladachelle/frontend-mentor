@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Fraunces";
+  src: url("/product-preview-card-component-main/fonts/Fraunces-9ptBlack.woff2") format("woff2"), url("/product-preview-card-component-main/fonts/Fraunces-9ptBlack.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/product-preview-card-component-main/fonts/Montserrat-VariableFont_wght.woff2") format("woff2"), url("/product-preview-card-component-main/fonts/Montserrat-VariableFont_wght.woff") format("woff");
+  font-weight: 100 900;
+  font-style: "normal";
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  font-size: 14px;
+}/*# sourceMappingURL=main.css.map */
