@@ -11,10 +11,10 @@
 }
 
 html {
-  font-family: "Fraunces", sans-serif;
-  font-weight: 500;
+  font-family: $font-primary;
+  font-weight: $font-weight-medium;
 }
 
 body {
-  font-size: 14px;
+  font-size: $font-size-sm;
 }
