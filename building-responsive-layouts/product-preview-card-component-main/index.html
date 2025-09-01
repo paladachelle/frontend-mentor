@@ -16,8 +16,33 @@
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    Perfume Gabrielle Essence Eau De Parfum A floral, solar and voluptuous
-    interpretation composed by Olivier Polge, Perfumer-Creator for the House of
-    CHANEL. $149.99 $169.99 Add to Cart
+    <main class="product-card">
+      <!-- Product Image -->
+      <div class="product-image">
+        <img
+          src="images/image-product-desktop.jpg"
+          alt="Gabrielle Essence Eau De Parfum"
+        />
+      </div>
+
+      <!-- Product Content -->
+      <div class="product-details">
+        <p class="category">Perfume</p>
+        <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
+        <p class="description">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+      </div>
+
+      <!-- Pricing -->
+      <div class="price">
+        <span class="current-price">$149.99</span>
+        <span class="old-price">$169.99</span>
+      </div>
+
+      <!-- CTA Button -->
+      <img src="images/icon-cart.svg" alt="Cart" />
+    </main>
   </body>
 </html>
