@@ -27,19 +27,4 @@ body {
   font-size: 0.875rem;
   background: hsl(30, 38%, 92%);
   height: 100vh;
-}
-
-.product-card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  max-height: 500px;
-  max-width: 500px;
-}
-
-.product-image {
-  width: 100%;
-  max-width: 100px;
-  max-height: 50px;
 }/*# sourceMappingURL=main.css.map */
