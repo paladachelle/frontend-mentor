@@ -4,12 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      html {
+        box-sizing: border-box;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: 200px auto;
+        gap: 10px;
+        background-color: rosybrown;
+        padding: 1em;
+        max-width: 30em;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item"></div>
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
     </div>
   </body>
 </html>
